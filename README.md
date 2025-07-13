@@ -19,7 +19,7 @@ A machine learning model with a clean Streamlit web interface to predict **custo
 
 ## 📸 App Preview
 
-![App Screenshot](https://raw.githubusercontent.com/parthmendiratta/churn-prediction-streamlit/main/app_sceenshot.png)
+![App Screenshot](https://raw.githubusercontent.com/parthmendiratta/churn-prediction-streamlit/main/app_screenshot.png)
 
 ---
 
