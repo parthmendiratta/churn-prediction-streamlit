@@ -1,33 +1,55 @@
-# 🔍 Customer Churn Prediction App
+# 🧠 Customer Churn Prediction App
 
-A machine learning app built with Random Forest and Streamlit to predict whether a customer is likely to churn.
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://churn-prediction-app-hp2wmeqbyccgjqrl7fgg2y.streamlit.app/)
+
+A machine learning model with a clean Streamlit web interface to predict **customer churn** based on input data. Upload a CSV and get instant predictions.
+
+---
 
 ## 🚀 Features
 
-- Upload customer CSV file
-- Predict churn in one click
-- Download results
-- Built using scikit-learn + Streamlit
+- 📊 Predicts which customers are likely to churn
+- 📁 Accepts CSV upload from users
+- ✅ Trained on Random Forest Classifier with GridSearchCV tuning
+- ⚖️ Balanced using class weights & SMOTE
+- 📈 Streamlit interface for ease of use
+- 🌐 Deployed on Streamlit Cloud
 
-## 🧠 Model
+---
 
-- Trained on [Telco Churn Dataset]
-- Used Random Forest with GridSearchCV
-- SMOTE and Class Weights handled imbalance
-- Final Accuracy: **80%**, Precision on Churn: **66%**
+## 📸 App Preview
 
-## 🖥 How to Use
+![App Screenshot](https://raw.githubusercontent.com/parthmendiratta/churn-prediction-streamlit/main/app_sceenshot.png)
 
-1. Clone this repo
-2. Run: 
--    (a) pip install requirements.txt
--    (b) streamlit start streamlit_app.py
+---
 
-3. Upload a CSV and get predictions!
+## 🧪 Tech Stack
 
-## 📦 Deliverables
+- Python
+- Scikit-learn
+- Pandas, NumPy
+- Streamlit
+- Git/GitHub
 
-- Jupyter Notebook (`.ipynb`)
-- Trained Model (`.pkl`)
-- Streamlit App (`.py`)
-- Requirements File
+---
+
+## 🧠 How It Works
+
+1. Upload a CSV file with customer data (same format as training)
+2. Model processes and outputs churn predictions
+3. View predictions and download results (optional to implement)
+
+---
+
+## 🔗 Try it out!
+
+👉 **[Live App on Streamlit](https://churn-prediction-app-hp2wmeqbyccgjqrl7fgg2y.streamlit.app/)**  
+📦 **[View Code on GitHub](https://github.com/parthmendiratta/churn-prediction-streamlit)**
+
+---
+
+## 🙋‍♂️ Author
+
+Parth Mendiratta – Machine Learning Practitioner on a 30-Day Freelance Mission  
+Want to collaborate or hire me? Reach out on [LinkedIn](https://www.linkedin.com/) *(add your link!)*
+
